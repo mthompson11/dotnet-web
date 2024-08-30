@@ -12,7 +12,7 @@ jobs:
         with:
           registry: DotnetWeb
           repository: DotnetWeb
-          image: DotnetWeb
+          image: 'DotnetWeb'
           tenant: ${{ secrets.AZURE_TENANT }}
           branch: main
           service_principal: ${{ secrets.AZURE_SERVICE_PRINCIPAL }}

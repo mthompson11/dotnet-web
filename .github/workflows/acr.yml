@@ -11,7 +11,7 @@ jobs:
         uses: azure/acr-build@v1
         with:
           registry: DotnetWeb
-          repository: DotnetWeb
+          repository: dotnetweb
           image: test
           tenant: ${{ secrets.AZURE_TENANT }}
           branch: main
